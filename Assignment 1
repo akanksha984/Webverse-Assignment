@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 1</title>
+</head>
+<body>
+    <h1>Assignment On List</h1>
+    <h3>Things I love to do</h3>
+    <ol>
+        <li>Eating</li>
+        <li>Travelling</li>
+        <li>Developing</li>
+    </ol>
+    <p><h3>Web Development</h3></p>
+    <ul>
+        <li>Frontend</li>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Script</li>
+            <li>React</li>
+        </ul>
+        <li>Backend</li>
+        <ol>
+            <li>Node Js</li>
+            <li>Express Js</li>
+        </ol>
+        <li>Database</li>
+        <ul>
+            <li>MongoDB</li>
+        </ul>
+    </ul>
+</body>
+</html>

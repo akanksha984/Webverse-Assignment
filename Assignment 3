@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 3</title>
+    </head>
+    <boby>
+        <h1>Assignment 3</h1>
+        <form>
+            <label for="firstName"><b>First Name:-</b></label>
+            <input name="firstName" id="firstName" type="text"required>
+            <label for="lastName"><b>Last Name:-</b></label>
+            <input name="lastNAme" id="lastName" type="text"required>
+            <hr>
+            <label><b>I love:-</b></label>
+            <br>
+            <input id="eating" name="iLove" value="EatingChickens" type="radio">
+            <label for="eating" >Eating Chickens</label>
+            <br>
+            <input id="travelling" name="iLove" value="Travelling" type="radio">
+            <label for="travelling"  >Travelling</label>
+            <br>
+            <input id="developing" name="iLove" value="Developing" type="radio">
+            <label for="developing" >Developing</label>
+            <hr>
+            <input type="checkbox" name="ihave" id="laptop" value="laptop">
+            <label for="laptop" >I have a Laptop</label>
+            <br>
+            <input type="checkbox" name="ihave" id="mobile" value="mobile">
+            <label for="mobile" >I have a Mobile Phone</label>
+            <br>
+            <input type="checkbox" name="ihave" id="desktop" value="desktop">
+            <label for="desktop">I have a Desktop</label>
+            <br>
+            <hr>
+            <label for="email"><b>Email:-</b></label>
+            <input name="email type="email" id="email" required>
+            <label for="passwd"><b>Password:-</b></label>
+            <input name="password" type="password" id="passwd" minlength="5" required>
+            <hr>
+            <label for="age"><b>Tell us your age:-</b></label>
+            <select name="age">
+                <option value="5-17">5-17</option>
+                <option value="18-30">18-30</option>
+                <option value="31-45">31-45</option>
+                <option value="45-60">45-60</option>
+                <option value="60+">60+</option>
+            </select>
+            <hr>
+            <button>Sumbit</button>
+        </form>
+    </boby>
+</html>
